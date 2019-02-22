@@ -39,4 +39,4 @@ def addrec():
     cur = con.cursor()
     cur.execute("INSERT INTO User (Email,Key) VALUES (?,?)",(email,result.hexdigest() ) )
     con.commit()
-    return "Record successfully added"
+    return "Record successfully"
