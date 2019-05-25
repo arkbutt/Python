@@ -30,7 +30,7 @@ def creatsdb():
 @app.route("/addrec")
 def addrec():
     msg="x"
-    print("Hello") 
+    print("Hello Me!") 
 #    ide = request.args.get('id')
     email = request.args.get('email')
 #    key = request.args.get('key') 
